@@ -1,0 +1,95 @@
+; ---- Block A (X only, F fixed) ----
+G91
+M400
+M73 P1   ; A1
+G1 X0.01 F600
+M400
+M73 P2   ; A2
+G1 X-0.01 F600
+M400
+M73 P3   ; A3
+G1 X0.03 F600
+M400
+M73 P4   ; A4
+G1 X-0.03 F600
+M400
+
+; Add powers-of-two style to expose bit fields
+M73 P5   ; A5
+G1 X0.02 F600     ; 2×
+M400
+M73 P6   ; A6
+G1 X0.04 F600     ; 4×
+M400
+M73 P7   ; A7
+G1 X0.08 F600     ; 8×
+M400
+M73 P8   ; A8
+G1 X-0.02 F600
+M400
+M73 P9   ; A9
+G1 X-0.04 F600
+M400
+M73 P10  ; A10
+G1 X-0.08 F600
+M400
+ ; ---- Block A (X only, F fixed) ----
+G91
+M400
+M73 P1   ; A1
+G1 X0.01 F600
+M400
+M73 P2   ; A2
+G1 X-0.01 F600
+M400
+M73 P3   ; A3
+G1 X0.03 F600
+M400
+M73 P4   ; A4
+G1 X-0.03 F600
+M400
+
+; Add powers-of-two style to expose bit fields
+M73 P5   ; A5
+G1 X0.02 F600     ; 2×
+M400
+M73 P6   ; A6
+G1 X0.04 F600     ; 4×
+M400
+M73 P7   ; A7
+G1 X0.08 F600     ; 8×
+M400
+M73 P8   ; A8
+G1 X-0.02 F600
+M400
+M73 P9   ; A9
+G1 X-0.04 F600
+M400
+M73 P10  ; A10
+G1 X-0.08 F600
+M400
+; ---- Block B (X only, distance fixed 0.04) ----
+G91
+M400
+M73 P11 ; B1
+G1 X0.04 F300
+M400
+M73 P12 ; B2
+G1 X0.04 F600
+M400
+M73 P13 ; B3
+G1 X0.04 F1200
+M400
+M73 P14 ; B4
+G1 X0.04 F2400
+M400
+; ---- Block D (repeat same line) ----
+G91
+M400
+M73 P19 ; D1
+G1 X0.02 F1200
+G1 X0.02 F1200
+G1 X0.02 F1200
+G1 X0.02 F1200
+G1 X0.02 F1200
+M400
