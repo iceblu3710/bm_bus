@@ -23,7 +23,7 @@ Reverse-engineering notes, working capture/parsing tools, and a practical field 
 
 ## Quick start
 
-**Deep dive:** See **[Detailed Analysis & Findings → `timestamped/findings/DETAILED_ANALYSIS.md`](timestamped/findings/DETAILED_ANALYSIS.md)** for the full hypotheses, methods, experiments, and results.
+**Deep dive:** See **[Detailed Analysis & Findings → `findings/DETAILED_ANALYSIS.md`](findings/DETAILED_ANALYSIS.md)** for the full hypotheses, methods, experiments, and results.
 
 ### 1) Hardware (sniff only!)
 
